@@ -23,9 +23,12 @@ p {
     font-size: 1.2rem;
 }
 
-.banner-text {
-    color: white;
-    font-size: 4rem;
+.nav-link {
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0);
+}
+
+.nav-link:hover, .nav-link:focus {
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.276);
 }
 
 #banner {
@@ -39,8 +42,41 @@ p {
     background-attachment: fixed;
 }
 
+#banner-background-content {
+    height: 100%;
+    text-align: center;
+    background-color: #c94f7c;
+}
+
+#banner-text-background-content {
+    background-color: rgba(255, 128, 171, 0.9);
+}
+
+#banner-title {
+    font-size: 4rem;
+    color: rgb(253, 238, 238);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#banner-subtitle {
+    font-size: 1.5rem;
+    color: rgb(253, 238, 238);
+    margin-bottom: 1rem;
+}
+
+#banner-button {
+    color: rgb(48, 48, 48);
+    margin-bottom: 1rem;
+}
+
 #banner-arrow {
-    color: white;
+    color: rgba(201, 79, 124);
+    font-size: 2rem;
 }
 
 .content {
