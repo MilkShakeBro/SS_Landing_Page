@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
 html, body {
     height: 100%;
     width: 100%;
@@ -5,6 +7,8 @@ html, body {
 
 body {
     font-family:
+    /* 圓體 */
+    'cwTeXYen',
     /* Safari for OS X and iOS */
     -apple-system,
     /* Chrome >= 56 for OS X , Windows, Linux and Android */
@@ -19,8 +23,22 @@ body {
     "Helvetica Neue", Arial, sans-serif;
 }
 
+a {
+    font-size: 1.1rem;
+}
+
 p {
+    font-size: 1.5rem;
+}
+
+.btn .btn-danger {
+    color: #c94f7c;
+}
+
+#brand-text {
+    color:rgb(253, 238, 238);
     font-size: 1.2rem;
+    font-style: bold;
 }
 
 .nav-link {
@@ -31,21 +49,46 @@ p {
     border-bottom: 0.1rem solid rgba(255, 255, 255, 0.276);
 }
 
-#banner {
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-color: #c94f7c;
-    background-attachment: fixed;
+@media (min-width: 992px) {
+    #banner {
+        height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-color: #c94f7c;
+        background-attachment: fixed;
+    }
 }
 
-#banner-background-content {
-    height: 100%;
-    text-align: center;
-    background-color: #c94f7c;
+@media (max-width: 991px) {
+    #banner {
+        height: 200%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-color: #c94f7c;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 992px) {
+    #banner-background-content {
+        height: 100%;
+        text-align: center;
+        background-color: #c94f7c;
+    }
+}
+
+@media (max-width: 991px) {
+    #banner-background-content {
+        height: 53%;
+        text-align: center;
+        background-color: #c94f7c;
+    }
 }
 
 #banner-text-background-content {
@@ -56,7 +99,7 @@ p {
     font-size: 4rem;
     color: rgb(253, 238, 238);
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
     padding-left: 2rem;
@@ -71,12 +114,19 @@ p {
 
 #banner-button {
     color: rgb(48, 48, 48);
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #banner-arrow {
     color: rgba(201, 79, 124);
     font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.drop-shadow {
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7))
 }
 
 .content {
@@ -128,6 +178,7 @@ p {
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 1rem;
+        margin-top: 1rem;
         font-size: 1.2rem;
     }
 }
@@ -157,6 +208,7 @@ p {
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 1rem;
+        margin-top: 1rem;
         font-size: 1.2rem;
     }
 }
@@ -186,6 +238,7 @@ p {
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 1rem;
+        margin-top: 1rem;
         font-size: 1.2rem;
     }
 }
@@ -194,14 +247,15 @@ p {
     .section-description > .section-text {
         margin-left: 2rem;
         margin-right: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
         margin-top: 1rem;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 }
 
 .section-arrow {
-    color: white;
+    color: rgba(201, 79, 124);
+    font-size: 2rem;
 }
 
 #section {
