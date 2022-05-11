@@ -57,7 +57,6 @@ p {
         background-size: cover;
         -o-background-size: cover;
         background-position: center;
-        background-color: #c94f7c;
         background-attachment: fixed;
     }
 }
@@ -70,8 +69,8 @@ p {
         background-size: cover;
         -o-background-size: cover;
         background-position: center;
-        background-color: #c94f7c;
         background-attachment: fixed;
+        background-image: url("../images/bg.png");
     }
 }
 
@@ -79,7 +78,7 @@ p {
     #banner-background-content {
         height: 100%;
         text-align: center;
-        background-color: #c94f7c;
+        background-image: url("../images/bg.png");
     }
 }
 
@@ -190,7 +189,7 @@ p {
         margin-right: 2rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -200,7 +199,7 @@ p {
         margin-right: 2rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 }
 
@@ -220,7 +219,7 @@ p {
         margin-right: 2rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -230,7 +229,7 @@ p {
         margin-right: 2rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 }
 
@@ -238,8 +237,8 @@ p {
 
 @media (max-width: 575px) {
     .section-image {
-        height: 47% !important;
-        width: 47% !important;
+        height: 42% !important;
+        width: 42% !important;
         margin-top: 3.3rem;
     }
 }
@@ -274,8 +273,8 @@ p {
 }
 
 #section-1-video {
-    height: 480px;
-    width: 480px;
+    height: 450px;
+    width: 450px;
 }
 
 #section-1 {
