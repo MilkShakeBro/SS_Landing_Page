@@ -58,6 +58,8 @@ p {
         -o-background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        background-size: cover;
+        background-image: url("../images/bg-large.png");
     }
 }
 
@@ -71,6 +73,7 @@ p {
         background-position: center;
         background-attachment: fixed;
         background-image: url("../images/bg.png");
+        background-repeat: no-repeat;
     }
 }
 
@@ -78,7 +81,6 @@ p {
     #banner-background-content {
         height: 100%;
         text-align: center;
-        background-image: url("../images/bg.png");
     }
 }
 
@@ -175,15 +177,15 @@ p {
 
 /* Medium screen */
 
-@media (max-width: 991px) and (min-width: 576px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .section-image {
-        height: 25% !important;
-        width: 25% !important;
+        height: 20% !important;
+        width: 20% !important;
         margin-top: 3.3rem;
     }
 }
 
-@media (max-width: 991px) and (min-width: 576px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .section-description > .section-title {
         margin-left: 2rem;
         margin-right: 2rem;
@@ -193,7 +195,7 @@ p {
     }
 }
 
-@media (max-width: 991px) and (min-width: 576px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .section-description > .section-text {
         margin-left: 2rem;
         margin-right: 2rem;
@@ -237,8 +239,8 @@ p {
 
 @media (max-width: 575px) {
     .section-image {
-        height: 42% !important;
-        width: 42% !important;
+        height: 36% !important;
+        width: 36% !important;
         margin-top: 3.3rem;
     }
 }
