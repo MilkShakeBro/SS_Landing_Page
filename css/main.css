@@ -95,12 +95,12 @@ p {
     background-color: rgba(255, 128, 171, 0.9);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1151px) {
     #banner-title {
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: rgb(253, 238, 238);
-        margin-top: 4rem;
-        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
         margin-left: 2rem;
         margin-right: 1rem;
         padding-left: 5rem;
@@ -108,18 +108,20 @@ p {
     }
 }
 
-@media (max-width: 991px) and (min-width: 780px) {
+@media (max-width: 1150px) and (min-width: 992px) {
     #banner-title {
-        font-size: 3.5rem;
+        font-size: 3rem;
         color: rgb(253, 238, 238);
         margin-top: 1rem;
         margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
         padding-left: 3rem;
         padding-right: 3rem;
     }
 }
 
-@media (max-width: 779px) {
+@media (max-width: 991px) {
     #banner-title {
         font-size: 3.5rem;
         color: rgb(253, 238, 238);
@@ -130,24 +132,24 @@ p {
     }
 }
 
-#banner-subtitle {
-    font-size: 1.3rem;
+.banner-subtitle {
+    font-size: 1.2rem;
     color: rgb(253, 238, 238);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
 #banner-button {
     color: rgb(48, 48, 48);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #banner-arrow {
     color: rgba(201, 79, 124);
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .drop-shadow {
@@ -165,8 +167,8 @@ p {
 
 @media (min-width: 992px) {
     .section-image {
-        height: 45% !important;
-        width: 45% !important;
+        height: 43% !important;
+        width: 43% !important;
         margin-top: 3.87rem;
     }
 }
@@ -193,8 +195,8 @@ p {
 
 @media (max-width: 991px) and (min-width: 768px) {
     .section-image {
-        height: 20% !important;
-        width: 20% !important;
+        height: 16% !important;
+        width: 16% !important;
         margin-top: 3.3rem;
     }
 }
@@ -223,8 +225,8 @@ p {
 
 @media (max-width: 767px) and (min-width: 576px) {
     .section-image {
-        height: 25% !important;
-        width: 25% !important;
+        height: 18% !important;
+        width: 18% !important;
         margin-top: 3.3rem;
     }
 }
@@ -253,9 +255,9 @@ p {
 
 @media (max-width: 575px) {
     .section-image {
-        height: 36% !important;
-        width: 36% !important;
-        margin-top: 3.3rem;
+        height: 40% !important;
+        width: 40% !important;
+        margin-top: 0.5rem;
     }
 }
 
@@ -263,8 +265,8 @@ p {
     .section-description > .section-title {
         margin-left: 2rem;
         margin-right: 2rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
         font-size: 1.2rem;
     }
 }
@@ -274,7 +276,7 @@ p {
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 0.5rem;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         font-size: 0.9rem;
     }
 }
@@ -284,8 +286,15 @@ p {
     font-size: 2rem;
 }
 
-#section {
+#section-0 {
     height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-color:#ff80ab;
+    background-attachment: fixed;
 }
 
 #section-1-video {
@@ -335,6 +344,12 @@ p {
     background-position: center;
     background-color:#ff80ab;
     background-attachment: fixed;
+}
+
+#section0-background-content {
+    height: 100%;
+    text-align: center;
+    background-color: rgba(235, 234, 234, 0.3)
 }
 
 #section1-background-content {

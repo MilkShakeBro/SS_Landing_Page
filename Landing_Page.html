@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-opacity-25 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#" id="brand-text">
-                <img class="me-1" src="images/b2c/logo.png" alt="logo" width="35" height="35">
+                <img class="me-1" src="images/logo.png" alt="logo" width="35" height="35">
                 GameToMem
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,6 +24,9 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item ms-2 me-lg-3 ms-lg-5">
                     <a class="nav-link" aria-current="page" href="#" >首頁</a>
+                </li>
+                <li class="nav-item ms-2 me-lg-3 ms-lg-3">
+                  <a class="nav-link" href="#section-0">單字卡</a>
                 </li>
                 <li class="nav-item ms-2 me-lg-3 ms-lg-2">
                   <a class="nav-link" href="#section-1">單字對對碰</a>
@@ -47,19 +50,43 @@
         <div class="row justify-content-lg-center align-items-lg-center" id="banner-background-content">
             <div class="col-12 col-lg-1"></div>
             <div class="col-12 col-lg-5 drop-shadow" id="banner-text-background-content">
-                <h2 id="banner-title">Playing. Learning. Have Fun !</h2>
-                <p  id="banner-subtitle">
-                  GameToMem 是一款利用遊戲解決單字老是背不起來的問題，
+                <h2 id="banner-title">Playing. Learning. Have Fun!</h2>
+                <p  class="banner-subtitle">
+                  GameToMem 是款用遊戲輔助單字記憶的 app，
+                </p>
+                <p  class="banner-subtitle">
                   當你想快速提升英文能力，
+                </p>
+                <p  class="banner-subtitle">
                   就讓 GameToMem 幫你一把！
                 </p>
                 <a href="https://www.google.com" target="_blank" class="btn btn-sm btn-light" role="button" id="banner-button"><i class="far fa-bell me-3"></i>關注我們</a>
-                <div><a href="#section-1"><i id="banner-arrow" class="fa fa-chevron-down mb-2" aria-hidden="true"></i></a></div>
+                <div><a href="#section-0"><i id="banner-arrow" class="fa fa-chevron-down mb-2" aria-hidden="true"></i></a></div>
             </div>
             <div class="col-12 col-lg-6">
             </div>
         </div>
     </header>
+
+    <div class="container-fluid" id="section-0">
+      <div class="row flex-row-reverse justify-content-center align-items-center" id="section0-background-content">
+          <div class="col-12 col-md-12 col-lg-1"></div>
+          <div class="col-12 col-md-12 col-lg-5">
+            <img src="images/flashcard-2.png" class="section-image">
+          </div>
+          <div class="col-12 col-md-12 col-lg-5 section-description">
+              <h1 class="section-title">單字卡</h1>
+              <p  class="section-text">利用單字卡學習單字集</p>
+              <p  class="section-text">
+                設定可運用的零碎時間，
+                時間一到小人會往下掉，
+                千萬不要讓小人踩到大便啊啊！！！
+              </p>
+              <a href="#section-1"><i class="fa fa-chevron-down section-arrow" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-12 col-md-12 col-lg-1"></div>
+      </div>
+    </div>
 
     <div class="container-fluid" id="section-1">
         <div class="row justify-content-center align-items-center" id="section1-background-content">
@@ -68,12 +95,11 @@
               <video id="section-1-video" class="section-image" controls>
                 <source src="videos/tetris_video.mp4" type="video/mp4">
               </video>
-              <!-- <img src="images/section1.png" class="section-image"> -->
             </div>
             <div class="col-12 col-md-12 col-lg-5 section-description">
                 <h1 class="section-title">單字對對碰</h1>
-                <p  class="section-text">在有限的時間內記下最多單字，在遊戲中獲得高分</p>
-                <p  class="section-text">在時間內利用單字卡背完單字，接著玩一場小遊戲，檢測學習的成果。看看自己可以在激烈的遊戲中，想起多少前面的單字！
+                <p  class="section-text">試著把單字卡的練習運用在遊戲中獲得高分</p>
+                <p  class="section-text">玩場遊戲檢測學習的成果，看看自己可以在激烈的遊戲中想起多少單字！
                 </p>
                 <a href="#section-2"><i class="fa fa-chevron-down section-arrow" aria-hidden="true"></i></a>
             </div>
@@ -85,10 +111,10 @@
       <div class="row flex-row-reverse justify-content-center align-items-center" id="section2-background-content">
           <div class="col-12 col-md-12 col-lg-1"></div>
           <div class="col-12 col-md-12 col-lg-5">
-            <img src="images/section1.png" class="section-image">
+            <img src="images/theme.png" class="section-image">
           </div>
           <div class="col-12 col-md-12 col-lg-5 section-description">
-              <h1 class="section-title">主題式英文單字</h1>
+              <h1 class="section-title">主題式學習</h1>
               <p  class="section-text">點選圖片，背下相對應的英文單字</p>
               <p  class="section-text">
                 選擇自己喜歡的情境，
@@ -106,7 +132,7 @@
       <div class="row justify-content-center align-items-center" id="section3-background-content">
         <div class="col-12 col-md-12 col-lg-1"></div>
           <div class="col-12 col-md-12 col-lg-5">
-            <img src="images/section1.png" class="section-image">
+            <img src="images/achievement.png" class="section-image">
           </div>
           <div class="col-12 col-md-12 col-lg-5 section-description">
               <h1 class="section-title">成就</h1>
@@ -121,7 +147,7 @@
       <div class="row flex-row-reverse justify-content-center align-items-center" id="section4-background-content">
         <div class="col-12 col-md-12 col-lg-1"></div>
           <div class="col-12 col-md-12 col-lg-5">
-            <img src="images/section1.png" class="section-image">
+            <img src="images/article.png" class="section-image">
           </div>
           <div class="col-12 col-md-12 col-lg-5 section-description">
               <h1 class="section-title">文章</h1>
