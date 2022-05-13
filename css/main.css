@@ -36,7 +36,6 @@ p {
 }
 
 #brand-text {
-    color:black;
     font-size: 1.2rem;
     font-style: bold;
 }
@@ -100,28 +99,43 @@ p {
     #banner-title {
         font-size: 4rem;
         color: rgb(253, 238, 238);
-        margin-top: 5rem;
-        margin-bottom: 1rem;
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
         margin-left: 2rem;
         margin-right: 1rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 780px) {
+    #banner-title {
+        font-size: 3.5rem;
+        color: rgb(253, 238, 238);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media (max-width: 779px) {
     #banner-title {
         font-size: 3.5rem;
         color: rgb(253, 238, 238);
         margin-top: 5rem;
         margin-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
 
 #banner-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(253, 238, 238);
     margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 #banner-button {
