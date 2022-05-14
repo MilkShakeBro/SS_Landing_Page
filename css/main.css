@@ -23,14 +23,6 @@ body {
     "Helvetica Neue", Arial, sans-serif;
 }
 
-a {
-    font-size: 1.1rem;
-}
-
-p {
-    font-size: 1.5rem;
-}
-
 .btn .btn-danger {
     color: #c94f7c;
 }
@@ -167,10 +159,15 @@ p {
 
 @media (min-width: 992px) {
     .section-image {
-        height: 43% !important;
+        height: 46% !important;
         width: 43% !important;
-        margin-top: 3.87rem;
+        margin-top: 1rem;
     }
+}
+
+.section-description {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -178,12 +175,13 @@ p {
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 5rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 
 @media (min-width: 992px) {
     .section-description > .section-text {
+        font-size: 1.5rem;
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 3rem;
@@ -284,6 +282,7 @@ p {
 .section-arrow {
     color: rgba(201, 79, 124);
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 #section-0 {
@@ -374,6 +373,71 @@ p {
     height: 100%;
     text-align: center;
     background-color: rgba(235, 234, 234, 0.3)
+}
+
+.feedback {
+    background-color:white;
+}
+
+.feedback-content {
+    height: 300px;
+    width: 200px;
+    background-color: #fda9c5;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-style: solid;
+    border-color: #c94f7c;
+    border-width: 0.3rem;
+    -webkit-filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.7));
+}
+
+.feedback-content-card-1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feedback-content-card-2 {
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+}
+
+.feedback-content-card-3 {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.feedback-content-card-4 {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.feedback-content-card-5 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feedback-content-card-6 {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.feedback-content-card-7 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feedback-content-card-8 {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.feedback-text {
+    background-color: white;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    border-radius: 1rem;
 }
 
 @media (min-width: 991px) {
