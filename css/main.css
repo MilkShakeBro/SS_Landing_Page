@@ -166,7 +166,7 @@ body {
 }
 
 .section-description {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 1rem;
 }
 
@@ -376,25 +376,25 @@ body {
 }
 
 .feedback {
-    background-color:white;
+    background-color:rgba(248, 248, 248, 0.836);
 }
 
 .feedback-content {
     height: 300px;
     width: 200px;
-    background-color: #fda9c5;
+    background-color: white;
     border-radius: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-style: solid;
-    border-color: #c94f7c;
+    border-color: rgb(64, 64, 64);
     border-width: 0.3rem;
-    -webkit-filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.7));
-    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.7));
+    -webkit-filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.5));
 }
 
 .feedback-content-card-1 {
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
 }
 
@@ -415,29 +415,26 @@ body {
 
 .feedback-content-card-5 {
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .feedback-content-card-6 {
     margin-top: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .feedback-content-card-7 {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .feedback-content-card-8 {
     margin-top: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .feedback-text {
-    background-color: white;
-    padding: 0.3rem;
-    margin: 0.2rem;
-    border-radius: 1rem;
+    margin: 0.5rem;
 }
 
 @media (min-width: 991px) {
